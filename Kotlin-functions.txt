@@ -1,0 +1,154 @@
+fun main() {
+    add(24,87)
+    add(75, 865)
+    add(-673, 89)
+    printFullName()
+    getStringLength()
+}
+
+fun add(num1: Int, num2: Int) {
+
+    var result = num1 + num2
+    println(result)
+
+}
+
+fun printFullName() {
+    var firstName = "Arthur"
+    var lastName = "Holland"
+    var fullName = firstName + " " + lastName
+    println(fullName)
+}
+
+fun getStringLength() {
+    var word = "Air Freshener"
+    println(word.length)
+}
+ 
+ RESULTS OF printlnz
+ 
+ 
+  940
+  -584
+ Arthur Holland
+  13
+
+Process finished with exit code 0
+   
+   OTHER EXAMPLES 
+   
+fun main() {
+
+    printFullName("Shalom", "Uwamahoro" )
+    getStringLength("Hi")
+    getStringLength("Hello")
+}
+
+fun printFullName(firstName: String, lastName: String) {
+    var fullName = firstName+ " "+ lastName
+    println(fullName)
+}
+
+fun getStringLength(word: String) {
+    println(word.length)
+}
+ THE RESULTS
+ 
+ Shalom Uwamahoro
+ 2
+ 5
+
+Process finished with exit code 0
+
+
+fun main() {
+
+    printFullName("Shalom", "Uwamahoro" )
+    getStringLength("Hi")
+    getStringLength("Hello")
+    divide(34.0, 5)
+}
+
+fun printFullName(firstName: String, lastName: String) {
+    var fullName = firstName+ " "+ lastName
+    println(fullName)
+}
+
+fun getStringLength(word: String) {
+    println(word.length)
+}
+fun divide(num1: Double, num2: Int){
+    var result = num1 / num2
+    println(result)
+}
+
+Shalom Uwamahoro
+2
+5
+6.8
+ ONOTHER
+ 
+fun main() {
+
+   var x = division(34.0, 5)
+    println(x)
+}
+
+ fun division(num1: Double, num2: Int): Double{
+    var result = num1 / num2
+   return result
+    println(result)
+}
+  RESULTS
+  6.8
+
+ ANOTHER EXAMPLE
+ 
+   fun main() {
+
+   var x = getStringLength("Hello Shalom")
+    println(x)
+
+}
+fun getStringLength(word: String): Int{
+    return word.length
+    }
+  RESULT
+  
+   12
+   
+   ANOTHER EXAMPLE 4
+   
+    fun main() {
+
+   var y = add(34,56)
+    println(y)
+
+}
+
+ fun add(num1: Int, num2: Int): Int{
+    return  num1+num2
+
+   RESULT
+   
+   90
+   
+   ANOTHER EXAMPLE 4  can be done as below too:
+   
+     fun main() {
+
+    println(add(34,56))
+    
+}
+
+  fun add(num1: Int, num2: Int): Int{
+    var result = num1+num2
+    return result
+    
+    RESULTS;
+  
+   90
+
+}
+
+

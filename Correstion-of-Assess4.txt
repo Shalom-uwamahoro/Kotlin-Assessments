@@ -1,0 +1,199 @@
+//fun main() {
+//    println(extract("Shalom"))
+//    println(textSlicing("Shalom"))
+//    weather(28.09)
+//    isEven(44)
+//
+//}
+//
+//fun extract(word:String): String{
+//    var subStr= word.substring(2,6)
+//    return subStr
+//}
+//
+//fun textSlicing(text:String): String {
+//    var slicing = text.slice(2..5)
+//    return slicing
+//}
+//
+//fun weather(temp:Double) {
+//    var message = "The temperature is $temp degrees celsius"
+//    println(message)
+//}
+//
+//fun isEven(value:Int){
+//    var modulus= value%2
+//    if(modulus==0){println("true")}
+//    else{println("false")}
+//}
+//
+//fun main() {
+//    var isKenyan: Boolean = true
+//
+
+
+
+
+
+//fun main(){
+//    var name= "Ashley"
+//    var weight= 34.8
+//    println(name.uppercase())
+//    println(name.split("a"))
+//
+
+// Another Way for Creating Substring
+
+//    println(name.split("s"))
+//    println(weight.toString() +" "+ "that's my wight")
+//    println(name.substring(1,4))
+//}
+
+
+//Answers to Assessment 3
+//
+//fun main() {
+//    addNumbers(23,34)
+//    isPositive(12)
+//    isPositive(-5)
+//
+//    var age= 18
+//    --age
+//    println(age)
+//
+//    var sentence="Kibaki was elected in 2022"
+//    println(sentence.replace("Kibaki", "Ruto"))
+//}
+//fun addNumbers(num1:Int, num2:Int){
+//    var sum= num1+num2
+//    println(sum)
+//}
+//fun isPositive(num:Int){
+//    var standard=0
+//    if (num>standard){println("Positive")}
+//    else{ println("Negative")}
+//}
+
+
+
+
+
+//Answers to Assessment 3
+//
+//fun main() {
+//    addNumbers(23,34)
+//    isPositive(12)
+//    isPositive(-5)
+//
+//    var age= 18
+//    --age
+//    println(age)
+//
+//    var sentence="Kibaki was elected in 2022"
+//    println(sentence.replace("Kibaki", "Ruto"))
+//}
+//fun addNumbers(num1:Int, num2:Int){
+//    var sum= num1+num2
+//    println(sum)
+//}
+//fun isPositive(num:Int){
+// var standard=0
+//    if (num>standard){println("Positive")}
+//    else{ println("Negative")}
+//}
+
+//Assessment 3
+//
+//1.Create a Kotlin function named addNumbers that takes two integers as parameters and prints their sum.
+//2.Write a Kotlin function named isPositive that takes an integer as a parameter and prints "Positive" if the number is greater than zero else prints "Negative"
+//3.Write a function that decreases my age by 1 (I am currently 18) and returns my new age.
+//4. write a function that changes “kibaki” to “Ruto” in the sentence below
+//“Kibaki was elected in 2022”.
+
+
+
+
+// fun main() {
+//myName("Shalom")
+//    myName("")
+//}
+//
+//fun myName(name: String) {
+//    var check = name.isBlank()
+//    if (check == true) {
+//        println("I don't know who that is")
+//    } else {
+//        println("That's me!")
+//    }
+//}
+
+
+
+//fun main() {
+//    myName("Shalom")
+//    myName("Nancy")
+//}
+//
+//fun myName(name: String){
+//    if(name=="Shalom")
+//        println("That's me!")
+//    else {println("I don't know who that is")}
+//}
+
+
+//fun main() {/fun main() {
+//myName("Shalom")
+//}
+//
+//fun myName(name: String) {
+//    var check = name.isBlank()
+//    if (check == true)
+//        println("I don't know who that is")
+//    else { println("That's me!") }
+//}
+
+
+
+
+//fun main() {
+//    var fruit= word("Banana")
+//    println(fruit)
+//
+//}
+//
+//fun word(name: String): Int {
+//    var fruit= name.length
+//    return fruit
+//}
+
+//fun main() {
+//    var sentence =introduction("Shalom", 23)
+//    println(sentence)
+//
+//}
+//
+//fun introduction(name: String, age: Int): String {
+//    var sentence= "Hi my name is $name and I am $age years old "
+//    return sentence
+//
+//}
+
+
+//
+//fun main() {
+//    school("Akirachix")
+//}
+//fun school(name:String){
+//    print(name[0])
+//    print(name[2])
+//    print(name[3])
+//}
+
+
+//fun main() {
+//    school ("Akirachix")
+
+//}
+//fun school(name:String){
+//    println(name[0].toString() + name[2].toString()+ name[3].toString())
+//}
